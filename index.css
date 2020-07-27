@@ -1,14 +1,17 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
 nav {
-	background-color: red;
-	height: 50px;
+    height: 50px;
+    background-color: white;
 }
 
 main {
-	background-color: yellow;
 	float: left;
 	width: 63%;
 	padding-left: 4%;
-	padding-top: 2%;
+    padding-top: 2%;
 }
 
 
@@ -41,16 +44,30 @@ main {
 /* Aside stuff */
 
 aside {
-	background-color: orange;
 	float: right;
     width: 31%;
     padding-top: 2%;
     padding-left: 2%;
+
 }
 
 #aside-metadata {
     margin-bottom: 17px;
 }
+
+#first-preview {
+    height: 110px;
+    width: 85%;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 16px;
+}
+
+.preview {
+    padding-bottom: 8px;
+    height: 95px;
+    width: 85%;
+}
+
 
 .preview-image {
     width: 165px;
