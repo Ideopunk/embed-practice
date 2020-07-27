@@ -2,18 +2,12 @@ body {
     background-color: rgb(247, 247, 247);
 }
 
+/* Nav stuff */
+
 nav {
     height: 50px;
     background-color: white;
 }
-
-main {
-	float: left;
-	width: 63%;
-	padding-left: 4%;
-    padding-top: 2%;
-}
-
 
 #searchbar {
 	width: 40%;
@@ -22,6 +16,15 @@ main {
     top: 25%;
     height: 60%;
     font-size: 16px;
+}
+
+/* Main stuff */
+
+main {
+	float: left;
+	width: 63%;
+	padding-left: 4%;
+    padding-top: 2%;
 }
 
 #video {
