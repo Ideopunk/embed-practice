@@ -11,19 +11,14 @@ main {
 	padding-top: 2%;
 }
 
-aside {
-	background-color: orange;
-	float: right;
-    width: 31%;
-    padding-top: 2%;
-    padding-left: 2%;
-}
 
 #searchbar {
-	width: 30%;
+	width: 40%;
 	position: relative;
-	left: 30%;
-	top: 25%;
+	left: 28%;
+    top: 25%;
+    height: 60%;
+    font-size: 16px;
 }
 
 #video {
@@ -33,11 +28,57 @@ aside {
 
 #title {
     padding-top: 10px;
-    font-size: 20px;
-    margin-bottom: 2px;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 15px;
 }
 
 #metadata{
     color: gray;
+    font-size: 14px;
 }
 
+/* Aside stuff */
+
+aside {
+	background-color: orange;
+	float: right;
+    width: 31%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+#aside-metadata {
+    margin-bottom: 17px;
+}
+
+.preview-image {
+    width: 165px;
+    height: 95px;
+    object-fit: cover;
+    float: left;
+}
+
+.preview-metadata {
+    position: relative;
+    left: 10px;
+}
+
+.preview-title {
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.preview-creator {
+    padding-bottom: 4px;
+    color: grey;
+}
+
+.preview-other {
+    padding-bottom: 2px;
+    color: grey;
+}
+
+.preview-stuff {
+    font-size: 14px;
+}
